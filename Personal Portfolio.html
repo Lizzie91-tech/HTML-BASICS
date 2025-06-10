@@ -2,9 +2,173 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Liz personal portfolio</title>
+    <style>
+        h2{
+            color:saddlebrown;
+
+        }
+body{
+    background-color: navajowhite;
+    font-family: "Fira Code Retina";
+    margin:0;
+}
+header{
+    background-color: white;
+    text-align:center;
+    color:sienna;
+    padding: 5px;
+    margin:30px;
+
+}
+main{
+    max-width: 800px;
+    margin:20px auto;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    margin:20px
+}
+nav a{
+    text-decoration:none;
+    color:rosybrown;
+    font-weight: bolder;
+}
+
+        section{
+            margin:30px;
+            padding:20px;
+            border-radius: 10px;
+
+        }
+        article{
+            background-color: white;
+            border-left:brown 2px ;
+            box-shadow: lightsalmon 2px 3px;
+        }
+        form{
+            background-color: white;
+            box-shadow: lightsalmon 2px 2px;
+            padding: 10px;
+        }
+        label{
+    display:block;
+    font-weight: bolder;
+    font-size: large;
+    color:saddlebrown;
+    margin-top: 15px;
+}
+        input[type=text],input[type=email],textarea{
+          width:100%;
+            border:1px solid lightsalmon;
+            border-radius:5px;
+        }
+
+        button{
+            background-color: salmon;
+            border: none;
+            border-radius: 5px;
+        }
+footer{
+    background-color:white;
+    text-align: center;
+    color:brown;
+    padding: 5px;
+    margin: 30px;
+    box-shadow: salmon 2px 3px 2px 3px;
+    border-radius: 10px;
+
+}
+#skills{
+    background-color: white;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: salmon 2px 3px 2px 3px;
+    border-radius:10px;
+
+}
+#aboutme {
+    background-color: white;
+    font-size: small;
+    box-shadow: salmon 2px 5px 2px 3px;
+    border-radius: 10px;
+}
+#contact{
+    box-shadow:salmon 2px 3px 2px 3px;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+#projects{
+    box-shadow:salmon 2px 3px 2px 3px;
+    border-radius: 10px;
+}
+
+
+    </style>
 </head>
 <body>
+<header>
+  <h1>Liz personal portfolio</h1>
+    <p>A student</p>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+</nav>
+</header>
+<main>
+    <section id="aboutme">
+        <h2>ABOUT</h2>
+        <p>My name is Liz Okuro.I live in Nairobi,Kenya.Currently taking Full Stack Development</p>
+    </section>
+    <section id="skills">
+        <h2>MY SKILLS</h2>
+        <p>My name is Liz Okuro.I live in Nairobi,Kenya.Currently taking Full Stack Development</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>MY PROJECTS</h2>
+        <article>
+            <h2>Student Management System</h2>
+            <p>Student Management System enables one to blabalblabla.My name is Liz Okuro.I live in Nairobi,Kenya.Currently taking Full Stack Development</p>
+        </article>
+        <article>
+            <h2>Ecommerce Project</h2>
+            <p>Student Management System enables one to blabalblabla.My name is Liz Okuro.I live in Nairobi,Kenya.Currently taking Full Stack Development</p>
+</article>
+    </section>
+    <section id="contact">
+        <h2>CONTACT ME</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Write Your Name"><br><br>
+        <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label>Send Message</label><br>
+            <textarea id="message" required placeholder="Write Your Message" col="30" row="10"></textarea><br>
+       <button type="submit">SUBMIT</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Let's Connect</p>0
+    <a href="#"><img src="images/github.png" width="50px" height="50px"></a>
+    <a href="#"><img src="images/X.png" width="50px" height="50px"></a>
+    <a href="#"><img src="instagram.jpeg" width="50px" height="50px"></a>
+  <p>&copy 2025 Liz Portfolio</p>
+</footer>
 
 </body>
 </html>

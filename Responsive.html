@@ -4,7 +4,57 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+  body{
+    background-color: rosybrown;
+    text-align: center;
+  }
+  header{
+    background-color: whitesmoke;
+    color:saddlebrown;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h1{
+    font-size: 24px;
+  }
+  nav a{
+    color: saddlebrown;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  @media (max-width: 600px) {
+    header{
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: saddlebrown;
+      color: black;
+    }
+    nav a{
+      display: block;
+      color: black;
+    }
+
+  }
+  @media(max-width: 480px){
+    body{background-color: burlywood;}
+  }
+</style>
 <body>
+<header>
+  <h1>Responsive background</h1>
+  <nav>
+    <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <a href="#">Contact</a>
+  </nav>
+</header>
+<h1>Responsive Background</h1>
+<p>Tech school testimonials often highlight the positive impact on students' lives, including career advancement, skills development, and personal growth</p>
+
 
 </body>
 </html>

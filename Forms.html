@@ -1,10 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HTML FORMS</title>
 </head>
 <body>
+<h2>A SIMPLE FORM</h2>
+<form>
+    <label for="name">NAME:</label>
+    <input type="text" id="name" name="username"><br><br>
+    <label for="phone">PHONE</label>
+    <input type="number" id="phone" name="phone"><br><br>
+    <button type="submit">SUBMIT</button>
+</form>
+<h2>REGISTRATION FORM</h2>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label for="fullname">FULL NAME</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="pass">PASSWORD</label>
+    <input type="password" id="pass" name="pass"><br><br>
+    <label>GENDER</label><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br><br>
+<label for="dob">DATE OF BIRTH</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Academic Information</legend>
+    <label for="courses">COURSE</label>
+    <select id="courses">
+        <option>Fullstack Software Development</option>
+        <option>Cyber Security</option>
+        <option>Data Science</option>
+        <option>Artificial Intelligence</option>
+        <option>Data Analytics</option>
+    </select><br><br>
+        <label>Tell us about yourself</label><br>
+    <textarea cols="30" rows="10"></textarea><br>
+    <label for="file">Upload files</label>
+    <input type="file" id="file" name="file"><br><br>
+    <input type="checkbox">Accept Terms and Conditions<br>
+    </fieldset>
+<button type="submit">REGISTER</button>
+    <button type="reset">CLEAR</button>
+</form>
+<h2>CONTACT US FROM</h2>
+<form>
+    <fieldset>
+        <legend>Contact us</legend>
+    <label for="name">NAME</label>
+    <input type="text" id="name" name="username"><br><br>
+    <label for="email">EMAIL ADDRESS</label>
+    <input type="text" id="email" name="email"><br><br>
+        <label>Message</label><br>
+    <textarea cols="30 rows=30"></textarea><br><br>
+    <button type="submit">SUBMIT</button>
+        <button type="reset">CLEAR</button>
+    </fieldset>
+</form>
 
 </body>
-</html>
+</html
+
+>
